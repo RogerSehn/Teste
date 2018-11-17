@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class MainTeste 
 {
-//Testandi
+//TestandoOnline
 	private static ArrayList<Materia> listaMaterias = new ArrayList<Materia>();
 	private static ArrayList<String> listaCodigos = new ArrayList<String>();
 	private static ArrayList<Periodo> listaPeriodos = new ArrayList<Periodo>();
@@ -18,7 +18,7 @@ public class MainTeste
 
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("Iniciando simulação!!");
+		System.out.println("Iniciando simulaÃ§Ã£o!!");
 		
 		queroFazer(arquivo);
 
@@ -93,7 +93,7 @@ public class MainTeste
 		{
 			if(p.materiaConflito(listaMaterias.get(n)))
 			{
-				System.out.println("Matéria conflitante");
+				System.out.println("MatÃ©ria conflitante");
 				System.out.println();
 			}else
 			{
@@ -103,7 +103,7 @@ public class MainTeste
 				System.out.println();
 				p.sem2.exibir();
 				System.out.println();
-				System.out.println("Próximo?");
+				System.out.println("PrÃ³ximo?");
 			}
 
 			n = teclado.nextInt();
@@ -146,7 +146,7 @@ public class MainTeste
 
 		br = new BufferedReader(new FileReader(arquivoCSV));
 
-		br.readLine(); //título
+		br.readLine(); //tÃ­tulo
 
 		while ((linha = br.readLine()) != null) 
 		{
