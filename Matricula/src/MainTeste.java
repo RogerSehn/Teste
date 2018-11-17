@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class MainTeste 
 {
-
+//Testandi
 	private static ArrayList<Materia> listaMaterias = new ArrayList<Materia>();
 	private static ArrayList<String> listaCodigos = new ArrayList<String>();
 	private static ArrayList<Periodo> listaPeriodos = new ArrayList<Periodo>();
